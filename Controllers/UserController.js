@@ -90,13 +90,7 @@ module.exports.User_data=async(req ,res)=>{
     })
     
     profile.save(() => {
-        res.status(200).send("<h1>Data saved </h1>")
-        const client=require('twilio')(process.env.accountSID,process.env.authToken)
-        client.messages.create({
-            to:`+91${profile.number}`,
-            from:'+14506003133',
-            body:`Hello!! Welcome to Buslala. Here's your Otp:${profile.name}`
-        })
+        res.send("<h1>Data saved </h1>")
     })
 }
 
