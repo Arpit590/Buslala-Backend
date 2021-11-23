@@ -20,7 +20,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server2.js",
+    "dev": "nodemon server2.js"
   },
   "repository": {
     "type": "git",
