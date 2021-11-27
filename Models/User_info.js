@@ -6,17 +6,19 @@ module.exports.Profile=model('Profile',Schema({
         type:String,
       //   required:true
     },
-    address:{
-        type:String,
-        required:true
+    number:{
+        type:Number
     },
     Email:{
         type:String,
         required:true
+  
     },
-    number:{
-        type:Number,
-        required:true
+    gender:{
+        type: String,
+    },
+    Age:{
+        type: String,
     }
   
   },{timestamps:true}))
