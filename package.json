@@ -1,5 +1,5 @@
 {
-  "name": "Buslala",
+  "name": "buslala-app",
   "version": "1.0.0",
   "description": "Buslala_app work",
   "main": "server2.js",
@@ -20,8 +20,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server2.js",
-    "dev": "nodemon server2.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
